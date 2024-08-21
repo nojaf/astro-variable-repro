@@ -1,5 +1,5 @@
 ---
-
+import Title from "../components/title.astro";
 ---
 
 <html lang="en">
@@ -11,6 +11,12 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<Title title="Foobar" />
 	</body>
 </html>
+<style>
+	:root {
+		--yellow: #FF0;
+		--red: #F00;
+	}
+</style>
